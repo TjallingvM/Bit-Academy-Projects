@@ -1,0 +1,27 @@
+.content{
+    position: relative;
+}
+.tooltip-content{
+    position: absolute;
+    top: 50px;
+    width: 400px;
+    background-color: black;
+    color: white;
+    opacity: 0;
+}
+.tooltip{
+    
+    top: 10px;
+    left: 80%;
+    position: sticky;
+}
+
+.icon:hover + .tooltip-content{
+    opacity: 1;
+}
+
+.icon {
+    display: flex;
+    justify-content: right;
+    position: sticky;
+}

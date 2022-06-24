@@ -1,0 +1,27 @@
+.name_input{
+    width: 400px;
+    vertical-align: 15px;
+    border-radius: 80px
+
+}
+.name_submit{
+    width: 100px;
+    border-radius:80px;
+    vertical-align: 15px;
+
+}
+.input_label{
+    font-size: 20px;
+    padding: 3px;
+    vertical-align: 15px;
+}
+textarea{
+    border-width: 5px;
+    border-color: red;
+    outline: none;
+}
+textarea:focus{
+    border-width: 5px;
+    border-color: green;
+    outline: none;
+}

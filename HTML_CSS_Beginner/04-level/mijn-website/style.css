@@ -1,0 +1,28 @@
+ol{
+    display:block
+}
+
+ul{
+    display: block;
+}
+li{
+    display: inline;
+}
+img{
+    max-width: 500px;
+    height: 500px;
+}
+
+.first_div{
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+.first_span{
+    color: darkorange;
+    font-style: unset;
+}
+
+label{
+    display: inline;
+}

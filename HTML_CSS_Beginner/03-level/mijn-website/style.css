@@ -1,0 +1,38 @@
+h1 {
+    color: red;
+    font-size: 16px;
+}
+.first_span{
+    color: darkorange;
+    font-style: unset;
+}
+
+body {
+    font-size: 24px;
+    color: blue;
+    background-color: black;
+}
+
+ol{
+    color:aquamarine;
+    font-size: 18px;
+}
+
+ul{
+    background-color: peachpuff;
+}
+
+img{
+    max-width: 500px;
+    height: 500px;
+}
+
+.first_div{
+    background-color: aquamarine;
+    font-style: italic;
+}
+
+.first_span{
+    color: darkorange;
+    font-style: unset;
+}

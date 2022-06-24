@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <title>Inschrijfformulier</title>
+</head>
+<body>
+    <h1>Bit Academy Sign Up</h1>
+    <form method="POST" action="#">
+        <label class="input_label" for='username'>Naam</label><br>
+        <input class="name_input" type="text" id="username" name="username"><br>
+        <label class="input_label" for='emailadres'>Email</label><br>
+        <input class="name_input" type="email" id="emailadres" name="mailadres"><br>
+        <label class="input_label" for='phone'>Telefoonnummer</label><br>
+        <input class="name_input" type="tel" id="phone" name="telefoonnummer"><br>
+        <label class="input_label" for='pin'>Pin code</label><br>
+        <input class="name_input" type="password" id="pin" name="pincode"><br>
+    
+        <label for="prov-select">Provincie:</label>  
+        <select name="provincies" id="prov-select">
+            <option value="">Kies een optie</option>
+            <option value="friesland">Friesland</option>
+            <option value="groningen">Groningen</option>
+            <option value="drenthe">Drenthe</option>
+            <option value="overijssel">Overijssel</option>
+            <option value="gelderland">Gelderland</option>
+            <option value="flevoland">Flevoland</option>
+            <option value="noordholland">Noord Holland</option>
+            <option value="zuidhollland">Zuid Holland</option>
+            <option value="limburg">Limburg</option>
+            <option value="noordbrabant">Noord Brabant</option>
+            <option value="zeeland">Zeeland</option>
+            <option value="utrecht">Utrecht</option>
+        </select><br>
+
+        <p>Hou je van voetbal?</p>
+        <div>
+            <input type="radio" id="voetbal_nee" value="Nee" name="voetbalfan" checked><br>
+            <label for="voetbal_nee">Nee</label>
+        </div>    
+        <div>    
+            <input type="radio" id="voetbal_ja" value="Ja" name="voetbalfan"><br>
+            <label for="voetbal_ja">Ja</label>
+        </div>
+    
+        <p>Favoriete dagen in de week:</p>
+        <div>
+            <label for="Maandag">Maandag</label><br>
+            <input type="checkbox" id="Maandag" name="Maandag" checked>
+        </div>
+        <div>
+            <label for="Dinsdag">Dinsdag</label><br>
+            <input type="checkbox" id="Dinsdag" name="Dinsdag">
+        </div>
+        <div>
+            <label for="Woensdag">Woensdag</label><br>
+            <input type="checkbox" id="Woensdag" name="Woensdag">
+        </div>
+        <div>
+            <label for="Donderdag">Donderdag</label><br>
+            <input type="checkbox" id="Donderdag" name="Donderdag">
+        </div>
+        <div>
+            <label for="Vrijdag">Vrijdag</label><br>
+            <input type="checkbox" id="Vrijdag" name="Vrijdag">
+        </div>
+        <div>
+            <label for="Zaterdag">Zaterdag</label><br>
+            <input type="checkbox" id="Zaterdag" name="Zaterdag">
+        </div>
+        <div>
+            <label for="Zondag">Zondag</label><br>
+            <input type="checkbox" id="Zondag" name="Zondag">
+        </div>
+        <textarea id="text-area" name="text-area" rows="8" cols="100">
+        </textarea><br>
+        
+        <input class="name_submit" type="submit" value="Submit"><br>
+
+    </form>
+
+</body>
+
+</html>
